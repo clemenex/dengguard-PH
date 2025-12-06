@@ -2,4 +2,4 @@ pandas
 numpy 
 scikit-learn 
 matplotlib 
-fastapi "uvicorn[standard]"
+fastapi
