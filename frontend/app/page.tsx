@@ -1,282 +1,167 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
-  Calendar,
-  MapPin,
-  AlertTriangle,
-  TrendingUp,
   Activity,
+  MapPin,
+  Calendar,
+  TrendingUp,
+  AlertTriangle,
   Info,
 } from "lucide-react";
-
-// --- CONFIG ---
-
-const YEARS = [2017, 2018, 2019, 2020, 2021];
-
-type RegionConfig = {
-  label: string;
-  apiValue: string;
-  multiplier: number;
-};
-
-const REGIONS: RegionConfig[] = [
-  { label: "National", apiValue: "National", multiplier: 1.0 },
-  { label: "NCR (Metro Manila)", apiValue: "NCR", multiplier: 0.25 },
-  { label: "Region VII (Central Visayas)", apiValue: "Region VII", multiplier: 0.15 },
-  { label: "Region XI (Davao)", apiValue: "Region XI", multiplier: 0.1 },
-  { label: "Region IV-A (Calabarzon)", apiValue: "Region IV-A", multiplier: 0.18 },
-];
+import { SimpleLineChart } from "@/components/SimpleLineChart";
 
 type DenguePoint = {
-  region: string;
-  year: number;
-  week: number;
-  cases: number;
   date: string;
+  year: number;
+  week?: number;
+  cases: number;
+  region: string;
 };
 
-const generateData = (): DenguePoint[] => {
-  const data: DenguePoint[] = [];
-
-  const seasonalProfile = [
-    0.8, 0.7, 0.6, 0.6, 0.7, 0.9, 1.2, 1.8, 2.2, 2.0, 1.5, 1.0,
-  ];
-
-  REGIONS.forEach(({ label, multiplier }) => {
-    YEARS.forEach((year) => {
-      let yearMultiplier = 1.0;
-      if (year === 2019) yearMultiplier = 2.5;
-      if (year === 2020) yearMultiplier = 0.3;
-
-      for (let week = 1; week <= 52; week++) {
-        const monthIndex = Math.floor((week - 1) / 4.3);
-        const seasonality = seasonalProfile[Math.min(monthIndex, 11)];
-
-        const baseCases = 1500;
-        const noise = 0.8 + Math.random() * 0.4;
-
-        const cases = Math.floor(
-          baseCases * seasonality * yearMultiplier * multiplier * noise
-        );
-
-        data.push({
-          region: label,
-          year,
-          week,
-          cases,
-          date: `Week ${week}, ${year}`,
-        });
-      }
-    });
-  });
-
-  return data;
+type ForecastData = {
+  predictedCases: number;
+  riskLevel: "Low" | "Moderate" | "High";
+  trend: "Increasing" | "Stable" | "Decreasing";
+  riskColor: string;
 };
 
-const RAW_DATA: DenguePoint[] = generateData();
 
-interface SimpleLineChartProps {
-  data: DenguePoint[];
-  color?: string;
-}
-
-const SimpleLineChart: React.FC<SimpleLineChartProps> = ({
-  data,
-  color = "#ef4444",
-}) => {
-  if (!data || data.length === 0)
-    return (
-      <div className="h-64 flex items-center justify-center text-gray-400">
-        No data available
-      </div>
-    );
-
-  const height = 300;
-  const width = 800;
-  const padding = 40;
-
-  const maxVal = Math.max(...data.map((d) => d.cases));
-  const minVal = 0;
-
-  const getX = (index: number) =>
-    padding + (index / (data.length - 1)) * (width - padding * 2);
-  const getY = (val: number) =>
-    height -
-    padding -
-    ((val - minVal) / (maxVal - minVal)) * (height - padding * 2);
-
-  const points = data
-    .map((d, i) => `${getX(i)},${getY(d.cases)}`)
-    .join(" ");
-
-  const labelStep = Math.max(1, Math.floor(data.length / 6));
-
-  return (
-    <div className="w-full overflow-x-auto">
-      <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-auto min-w-[600px]">
-        {/* Grid + Y-axis labels */}
-        {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
-          const y = height - padding - tick * (height - padding * 2);
-          return (
-            <g key={tick}>
-              <line
-                x1={padding}
-                y1={y}
-                x2={width - padding}
-                y2={y}
-                stroke="#e5e7eb"
-                strokeWidth="1"
-              />
-              <text
-                x={padding - 10}
-                y={y + 4}
-                textAnchor="end"
-                fontSize="10"
-                fill="#9ca3af"
-              >
-                {Math.round(minVal + tick * (maxVal - minVal))}
-              </text>
-            </g>
-          );
-        })}
-
-        {/* Line */}
-        <polyline
-          fill="none"
-          stroke={color}
-          strokeWidth="2"
-          points={points}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-
-        {/* X-axis labels (roughly 6) */}
-        {data.map((d, i) => {
-          if (i % labelStep !== 0) return null;
-          return (
-            <text
-              key={`${d.year}-${d.week}`}
-              x={getX(i)}
-              y={height - 10}
-              textAnchor="middle"
-              fontSize="10"
-              fill="#6b7280"
-            >
-              {d.year} W{d.week}
-            </text>
-          );
-        })}
-      </svg>
-    </div>
-  );
-};
-
-// --- MAIN COMPONENT ---
-
-export default function DengueDashboard() {
-  // UI state
-  const [selectedRegion, setSelectedRegion] = useState<RegionConfig>(REGIONS[0]);
-  const [yearRange, setYearRange] = useState<[number, number]>([2019, 2021]);
-
-  // Backend-driven forecast state (from FastAPI)
-  const [forecastYear, setForecastYear] = useState<number>(2024);
-  const [forecastMonth, setForecastMonth] = useState<number>(1);
-  const [lagCases, setLagCases] = useState<number>(100);
-  const [prediction, setPrediction] = useState<number | null>(null);
-  const [showRisk, setShowRisk] = useState<boolean>(false);
-  const [loading, setLoading] = useState<boolean>(false);
+export default function DengueDashboardPage() {
+  const [allData, setAllData] = useState<DenguePoint[]>([]);
+  const [selectedRegion, setSelectedRegion] = useState("Region IV-A");
+  const [yearRange, setYearRange] = useState<[number, number]>([2017, 2021]);
+  const [showRisk, setShowRisk] = useState(false);
+  const [forecastData, setForecastData] = useState<ForecastData | null>(null);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Filter chart data based on region + year range
-  const filteredData = useMemo(
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const res = await fetch("/data/dengue_timeseries.json");
+        if (!res.ok) throw new Error("Failed to load dengue data");
+        const data: DenguePoint[] = await res.json();
+        setAllData(data);
+      } catch (err: any) {
+        console.error(err);
+        setError("Could not load dengue dataset for the dashboard.");
+      }
+    };
+    loadData();
+  }, []);
+
+  const REGIONS = useMemo(
     () =>
-      RAW_DATA.filter(
-        (d) =>
-          d.region === selectedRegion.label &&
-          d.year >= yearRange[0] &&
-          d.year <= yearRange[1]
+      Array.from(new Set(allData.map((d) => d.region))).sort((a, b) =>
+        a.localeCompare(b)
       ),
-    [selectedRegion, yearRange]
+    [allData]
   );
 
-  // Risk + trend derived from backend prediction
-  const forecastData = useMemo(() => {
-    if (prediction === null || filteredData.length === 0) return null;
+  const filteredData = useMemo(() => {
+    return allData
+      .filter((d) => d.region === selectedRegion)
+      .filter(
+        (d) => d.year >= yearRange[0] && d.year <= yearRange[1]
+      )
+      .sort(
+        (a, b) =>
+          new Date(a.date).getTime() - new Date(b.date).getTime()
+      );
+  }, [allData, selectedRegion, yearRange]);
 
-    const lastPoint = filteredData[filteredData.length - 1];
-    const lastCases = lastPoint.cases;
-
-    // Risk thresholds (can tune)
-    const isNational = selectedRegion.apiValue === "National";
-    const highRiskThreshold = isNational ? 8000 : 2000;
-    const modRiskThreshold = isNational ? 4000 : 800;
-
-    let riskLevel = "Low";
-    let riskColor = "bg-green-100 text-green-800 border-green-200";
-    if (prediction > modRiskThreshold) {
-      riskLevel = "Moderate";
-      riskColor = "bg-yellow-100 text-yellow-800 border-yellow-200";
-    }
-    if (prediction > highRiskThreshold) {
-      riskLevel = "High";
-      riskColor = "bg-red-100 text-red-800 border-red-200";
+  const handleAnalyzeRisk = async () => {
+    if (showRisk) {
+      setShowRisk(false);
+      return;
     }
 
-    const trend = prediction > lastCases ? "Increasing" : "Decreasing";
-
-    return {
-      predictedCases: Math.round(prediction),
-      riskLevel,
-      riskColor,
-      trend,
-      referenceWeek: lastPoint.date,
-    };
-  }, [prediction, filteredData, selectedRegion]);
-
-  // Plain-language summary
-  const summary = useMemo(() => {
-    if (!forecastData) {
-      return "Not enough data or forecast yet. Set the forecast parameters and click Analyze Risk to get a prediction.";
+    if (filteredData.length < 2) {
+      setError("Not enough historical data to analyze risk for this region.");
+      return;
     }
 
-    return `For ${selectedRegion.label}, the model predicts around ${
-      forecastData.predictedCases
-    } dengue cases for ${forecastYear}-${String(forecastMonth).padStart(
-      2,
-      "0"
-    )}. This suggests a ${forecastData.riskLevel.toLowerCase()} risk level. Compared to the latest observed week (${forecastData.referenceWeek}), cases appear to be ${forecastData.trend.toLowerCase()}.`;
-  }, [forecastData, selectedRegion, forecastYear, forecastMonth]);
-
-  // BACKEND CALL (from your second file, but wired into this UI)
-  const handleForecast = async () => {
     setLoading(true);
     setError(null);
-    setShowRisk(false);
 
     try {
+      const latest = filteredData[filteredData.length - 1];
+      const prev = filteredData[filteredData.length - 2];
+
+      const latestDate = new Date(latest.date);
+      const year = latestDate.getFullYear();
+      const month = latestDate.getMonth() + 1;
+
       const res = await fetch("http://localhost:8000/forecast", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          region: selectedRegion.apiValue,
-          year: forecastYear,
-          month: forecastMonth,
-          cases_lag1: lagCases,
+          region: selectedRegion,
+          year,
+          month,
+          cases_lag1: prev.cases,
         }),
       });
 
-      if (!res.ok) throw new Error("API error");
+      if (!res.ok) {
+        throw new Error("Forecast API error");
+      }
+
       const data = await res.json();
-      setPrediction(data.predicted_cases);
+      const predicted = data.predicted_cases as number;
+      const lastCases = latest.cases;
+      const diff = predicted - lastCases;
+      const diffRatio = lastCases > 0 ? diff / lastCases : 0;
+
+      let trend: ForecastData["trend"];
+      if (diffRatio > 0.15) trend = "Increasing";
+      else if (diffRatio < -0.15) trend = "Decreasing";
+      else trend = "Stable";
+
+      let riskLevel: ForecastData["riskLevel"];
+      let riskColor: string;
+
+      if (predicted >= 1500) {
+        riskLevel = "High";
+        riskColor = "border-l-red-500";
+      } else if (predicted >= 800) {
+        riskLevel = "Moderate";
+        riskColor = "border-l-amber-400";
+      } else {
+        riskLevel = "Low";
+        riskColor = "border-l-emerald-400";
+      }
+
+      setForecastData({
+        predictedCases: Math.round(predicted),
+        riskLevel,
+        riskColor,
+        trend,
+      });
       setShowRisk(true);
     } catch (err: any) {
-      setError(err.message || "Failed to fetch forecast");
-      setPrediction(null);
+      console.error(err);
+      setError(err.message || "Something went wrong while fetching forecast.");
     } finally {
       setLoading(false);
     }
   };
+
+  const summary = useMemo(() => {
+    if (!forecastData) return "Not enough data to generate summary.";
+    return `In ${selectedRegion}, dengue cases are currently ${forecastData.trend.toLowerCase()}. 
+    Based on the last month's data (${yearRange[1]}), we project roughly ${forecastData.predictedCases} cases 
+    in the upcoming weeks. This places the region at ${forecastData.riskLevel} Risk.`;
+  }, [forecastData, selectedRegion, yearRange]);
+
+  const peakDate = useMemo(() => {
+    if (filteredData.length === 0) return "N/A";
+    const peak = filteredData.reduce((prev, current) =>
+      prev.cases > current.cases ? prev : current
+    );
+    return peak.date;
+  }, [filteredData]);
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-12">
@@ -285,7 +170,9 @@ export default function DengueDashboard() {
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Activity className="h-6 w-6 text-red-400" />
-            <h1 className="text-xl font-bold tracking-tight">DengueNow PH</h1>
+            <h1 className="text-xl font-bold tracking-tight">
+              DengGuard PH
+            </h1>
           </div>
           <div className="text-xs bg-blue-800 px-3 py-1 rounded-full uppercase tracking-wider font-semibold">
             Beta Prototype
@@ -302,30 +189,28 @@ export default function DengueDashboard() {
               <MapPin className="h-4 w-4 mr-1" /> Select Region
             </label>
             <select
-              value={selectedRegion.label}
-              onChange={(e) => {
-                const regionCfg = REGIONS.find(
-                  (r) => r.label === e.target.value
-                );
-                if (regionCfg) {
-                  setSelectedRegion(regionCfg);
-                }
-              }}
+              value={selectedRegion}
+              onChange={(e) => setSelectedRegion(e.target.value)}
               className="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
             >
-              {REGIONS.map((r) => (
-                <option key={r.apiValue} value={r.label}>
-                  {r.label}
-                </option>
-              ))}
+              {/* If REGIONS is empty (initially), keep the current default */}
+              {REGIONS.length === 0 ? (
+                <option value={selectedRegion}>{selectedRegion}</option>
+              ) : (
+                REGIONS.map((r) => (
+                  <option key={r} value={r}>
+                    {r}
+                  </option>
+                ))
+              )}
             </select>
           </div>
 
-          {/* Year Range for Chart */}
+          {/* Year Range Selector */}
           <div className="space-y-2">
             <label className="flex items-center text-sm font-semibold text-slate-600">
-              <Calendar className="h-4 w-4 mr-1" /> Year Range: {yearRange[0]} -{" "}
-              {yearRange[1]}
+              <Calendar className="h-4 w-4 mr-1" /> Year Range:{" "}
+              {yearRange[0]} - {yearRange[1]}
             </label>
             <div className="flex items-center space-x-4 px-2">
               <input
@@ -334,7 +219,7 @@ export default function DengueDashboard() {
                 max={yearRange[1]}
                 value={yearRange[0]}
                 onChange={(e) => {
-                  const val = parseInt(e.target.value, 10);
+                  const val = parseInt(e.target.value);
                   if (val <= yearRange[1]) setYearRange([val, yearRange[1]]);
                 }}
                 className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"
@@ -346,85 +231,49 @@ export default function DengueDashboard() {
                 max="2021"
                 value={yearRange[1]}
                 onChange={(e) => {
-                  const val = parseInt(e.target.value, 10);
-                  if (val >= yearRange[0]) setYearRange([yearRange[0], val]);
+                  const val = parseInt(e.target.value);
+                  if (val >= yearRange[0])
+                    setYearRange([yearRange[0], val]);
                 }}
                 className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"
               />
             </div>
           </div>
 
-          {/* Forecast Controls + Button (backend) */}
-          <div className="flex flex-col justify-between space-y-3">
-            <div>
-              <label className="flex items-center text-sm font-semibold text-slate-600">
-                <TrendingUp className="h-4 w-4 mr-1" />
-                Forecast Parameters
-              </label>
-              <div className="grid grid-cols-3 gap-2 mt-2">
-                <div className="flex flex-col">
-                  <span className="text-xs text-slate-500 mb-1">Year</span>
-                  <input
-                    type="number"
-                    className="w-full p-2 bg-slate-50 border border-slate-300 rounded-lg text-sm"
-                    value={forecastYear}
-                    onChange={(e) => setForecastYear(Number(e.target.value))}
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-xs text-slate-500 mb-1">Month</span>
-                  <input
-                    type="number"
-                    min={1}
-                    max={12}
-                    className="w-full p-2 bg-slate-50 border border-slate-300 rounded-lg text-sm"
-                    value={forecastMonth}
-                    onChange={(e) =>
-                      setForecastMonth(
-                        Math.min(Math.max(Number(e.target.value), 1), 12)
-                      )
-                    }
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-xs text-slate-500 mb-1">
-                    Prev-month cases
-                  </span>
-                  <input
-                    type="number"
-                    className="w-full p-2 bg-slate-50 border border-slate-300 rounded-lg text-sm"
-                    value={lagCases}
-                    onChange={(e) => setLagCases(Number(e.target.value))}
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col space-y-1">
-              <button
-                onClick={handleForecast}
-                disabled={loading}
-                className={`w-full py-2.5 px-4 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2 ${
-                  loading
-                    ? "bg-red-300 text-white"
+          {/* Forecast Toggle */}
+          <div className="flex items-end pb-2">
+            <button
+              onClick={handleAnalyzeRisk}
+              disabled={loading || filteredData.length < 2}
+              className={`w-full py-2.5 px-4 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2 
+                ${
+                  showRisk
+                    ? "bg-red-600 text-white shadow-md"
                     : "bg-white border-2 border-red-600 text-red-600 hover:bg-red-50"
-                }`}
-              >
-                <TrendingUp className="h-4 w-4" />
-                <span>
-                  {loading
-                    ? "Predicting..."
-                    : prediction === null
-                    ? "Analyze Risk"
-                    : "Update Forecast"}
-                </span>
-              </button>
-              {error && (
-                <p className="text-xs text-red-600 mt-1">{error}</p>
-              )}
-            </div>
+                } ${
+                loading ? "opacity-60 cursor-not-allowed" : ""
+              }`}
+            >
+              <TrendingUp className="h-4 w-4" />
+              <span>
+                {loading
+                  ? "Analyzing..."
+                  : showRisk
+                  ? "Hide Forecast"
+                  : "Analyze Risk"}
+              </span>
+            </button>
           </div>
         </div>
+
+        {/* Error message (global) */}
+        {error && (
+          <div className="max-w-6xl mx-auto">
+            <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+              {error}
+            </p>
+          </div>
+        )}
 
         {/* Dashboard Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -440,6 +289,7 @@ export default function DengueDashboard() {
                 </div>
               </div>
 
+              {/* Line chart */}
               <SimpleLineChart data={filteredData} />
 
               <div className="mt-4 flex justify-center space-x-6 text-sm text-slate-500">
@@ -453,7 +303,7 @@ export default function DengueDashboard() {
 
           {/* Sidebar / Info Column */}
           <div className="space-y-6">
-            {/* Risk Card (backend-driven) */}
+            {/* Risk Card - Only shows if toggled */}
             {showRisk && forecastData && (
               <div
                 className={`p-6 rounded-xl border-l-8 shadow-sm ${forecastData.riskColor} bg-white animate-in slide-in-from-right duration-500`}
@@ -466,22 +316,14 @@ export default function DengueDashboard() {
                     <div className="text-3xl font-extrabold mt-1">
                       {forecastData.riskLevel}
                     </div>
-                    <p className="mt-1 text-xs text-slate-600">
-                      Compared to latest observed week (
-                      {forecastData.referenceWeek}), trend is{" "}
-                      <span className="font-semibold">
-                        {forecastData.trend.toLowerCase()}
-                      </span>
-                      .
-                    </p>
                   </div>
                   <AlertTriangle className="h-8 w-8 opacity-80" />
                 </div>
                 <div className="mt-4 pt-4 border-t border-black/10">
                   <div className="flex justify-between items-center text-sm font-medium">
-                    <span>Predicted next period:</span>
+                    <span>Predicted next 4 weeks:</span>
                     <span className="text-lg">
-                      ~{forecastData.predictedCases.toLocaleString()} cases
+                      ~{forecastData.predictedCases} cases
                     </span>
                   </div>
                 </div>
@@ -504,24 +346,18 @@ export default function DengueDashboard() {
               <h3 className="font-bold text-slate-800 mb-4">
                 Dataset Highlights
               </h3>
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm">
+              <div className="space-y-3 text-sm">
+                <div className="flex justify-between">
                   <span className="text-slate-500">Total Records</span>
                   <span className="font-mono font-medium">
                     {filteredData.length} weeks
                   </span>
                 </div>
-                <div className="flex justify-between text-sm">
+                <div className="flex justify-between">
                   <span className="text-slate-500">Peak Week</span>
-                  <span className="font-mono font-medium">
-                    {filteredData.length > 0
-                      ? filteredData.reduce((prev, current) =>
-                          prev.cases > current.cases ? prev : current
-                        ).date
-                      : "N/A"}
-                  </span>
+                  <span className="font-mono font-medium">{peakDate}</span>
                 </div>
-                <div className="flex justify-between text-sm">
+                <div className="flex justify-between">
                   <span className="text-slate-500">Max Cases</span>
                   <span className="font-mono font-medium">
                     {filteredData.length > 0

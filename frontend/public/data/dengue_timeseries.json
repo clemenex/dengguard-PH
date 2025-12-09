@@ -1,0 +1,6122 @@
+[
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":705
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":374
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":276
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":240
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":243
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":345
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":1295
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":1598
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":1415
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":1000
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":555
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region I",
+    "cases":235
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":285
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":202
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":151
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":174
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":179
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":362
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":1032
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":1609
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":1333
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":1159
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":865
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region I",
+    "cases":885
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":699
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":448
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":235
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":325
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":334
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":721
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":3374
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":3266
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":2221
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":1081
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":1285
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region I",
+    "cases":1522
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":596
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":633
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":399
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":183
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":197
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":743
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":2587
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":4178
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":4814
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":2585
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":2133
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region I",
+    "cases":819
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":424
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":442
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":352
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":46
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":87
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":186
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":452
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":1030
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":1052
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":807
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":1212
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region I",
+    "cases":1081
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":659
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":408
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":211
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":138
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":126
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":126
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":390
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":754
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":552
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":292
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":181
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region II",
+    "cases":54
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":265
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":112
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":130
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":112
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":129
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":260
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":639
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":819
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":668
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":990
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":678
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region II",
+    "cases":508
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":418
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":267
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":234
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":238
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":276
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":573
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":1516
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":2518
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":3698
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":2921
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":2522
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region II",
+    "cases":2497
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":1797
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":2136
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":1355
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":429
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":486
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":1171
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":1922
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":2446
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":2152
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":1202
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":957
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region II",
+    "cases":581
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":324
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":436
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":117
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":18
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":17
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":30
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":54
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":108
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":109
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":158
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":161
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region II",
+    "cases":96
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":1976
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":1748
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":883
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":549
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":365
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":363
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":1701
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":2877
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":3194
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":3155
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":2207
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region III",
+    "cases":1971
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":2301
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":1264
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":1006
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":644
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":430
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":756
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":3263
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":4764
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":3263
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":2811
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":2310
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region III",
+    "cases":2388
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":2497
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":1829
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":1237
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":724
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":695
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":1174
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":4576
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":5581
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":5026
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":3302
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":2859
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region III",
+    "cases":2226
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":1813
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":1840
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":1230
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":460
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":428
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":1371
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":2228
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":6593
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":9713
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":5682
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":3003
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region III",
+    "cases":2797
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":2859
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":3091
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":1404
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":207
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":201
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":280
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":698
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":1272
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":1073
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":1013
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":1731
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region III",
+    "cases":2162
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":2993
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":2035
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":1327
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":838
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":714
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":778
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":2270
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":3218
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":3454
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":3175
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":2023
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region IV-A",
+    "cases":1457
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":1764
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":1243
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":927
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":647
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":435
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":815
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":2727
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":3121
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":2520
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":2759
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":2635
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region IV-A",
+    "cases":2828
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":2457
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":1975
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":1494
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":946
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":675
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":991
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":2793
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":3756
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":4697
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":3914
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":3575
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region IV-A",
+    "cases":3137
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":2157
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":3252
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":2252
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":892
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":909
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":2531
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":6365
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":15047
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":21658
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":10365
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":5899
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region IV-A",
+    "cases":4868
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":3175
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":2581
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":1504
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":151
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":77
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":105
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":212
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":291
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":231
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":325
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":542
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region IV-A",
+    "cases":527
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":203
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":219
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":211
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":181
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":203
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":263
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":735
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":778
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":469
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":388
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":214
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region IV-B",
+    "cases":135
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":243
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":255
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":147
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":69
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":94
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":232
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":393
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":412
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":286
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":247
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":203
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region IV-B",
+    "cases":189
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":214
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":277
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":203
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":198
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":238
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":471
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":1650
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":1489
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":1582
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":637
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":470
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region IV-B",
+    "cases":590
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":435
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":710
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":799
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":364
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":248
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":941
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":1628
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":2125
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":1995
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":710
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":616
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region IV-B",
+    "cases":413
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":320
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":607
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":537
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":77
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":111
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":196
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":467
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":1048
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":694
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":438
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":390
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region IV-B",
+    "cases":192
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":237
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":161
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":118
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":94
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":96
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":106
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":248
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":346
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":378
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":319
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":242
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region V",
+    "cases":187
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":232
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":178
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":111
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":130
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":66
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":163
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":373
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":435
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":367
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":508
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":323
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region V",
+    "cases":339
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":297
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":168
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":157
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":173
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":136
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":235
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":408
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":355
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":397
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":320
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":355
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region V",
+    "cases":547
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":342
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":387
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":436
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":223
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":205
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":547
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":1371
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":2281
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":2846
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":1292
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":648
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region V",
+    "cases":563
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":404
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":394
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":335
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":86
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":74
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":55
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":47
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":83
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":60
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":53
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":61
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region V",
+    "cases":69
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":971
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":674
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":596
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":560
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":782
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":1137
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":4993
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":7155
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":5039
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":2562
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":1058
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region VI",
+    "cases":643
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":727
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":454
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":336
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":310
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":346
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":630
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":1577
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":2291
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":686
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":488
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":627
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region VI",
+    "cases":811
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":755
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":574
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":456
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":487
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":545
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":1017
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":2701
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":2639
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":2846
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":1903
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":1724
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region VI",
+    "cases":1935
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":1426
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":2003
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":2262
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":1199
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":1386
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":4859
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":13564
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":18090
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":9048
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":3475
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":1881
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region VI",
+    "cases":1164
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":660
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":784
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":630
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":167
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":138
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":272
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":388
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":473
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":169
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":115
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":197
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region VI",
+    "cases":138
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":1690
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":1175
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":1220
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":984
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":916
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":756
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":2473
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":4424
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":4458
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":4531
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":3771
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region VII",
+    "cases":2997
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":2750
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":1598
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":1058
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":750
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":537
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":718
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":1234
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":2647
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":2570
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":421
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":691
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region VII",
+    "cases":966
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":659
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":567
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":478
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":402
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":328
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":636
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":1539
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":2417
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":2830
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":3185
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":4123
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region VII",
+    "cases":4725
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":2461
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":2815
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":1831
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":571
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":535
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":1030
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":2124
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":3858
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":5534
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":3791
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":2823
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region VII",
+    "cases":3680
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":3389
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":3464
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":2119
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":578
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":290
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":252
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":355
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":626
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":473
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":350
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":303
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region VII",
+    "cases":207
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":469
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":376
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":273
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":217
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":364
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":426
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":921
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":839
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":575
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":421
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":278
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region VIII",
+    "cases":229
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":620
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":438
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":323
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":356
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":220
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":236
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":433
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":417
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":198
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":144
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":191
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region VIII",
+    "cases":340
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":485
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":313
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":241
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":270
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":325
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":503
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":813
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":1106
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":1315
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":1563
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":1781
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region VIII",
+    "cases":2261
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":1000
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":1178
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":815
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":488
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":427
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":1031
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":3699
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":7557
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":6084
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":2634
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":1218
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region VIII",
+    "cases":740
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":897
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":1500
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":1210
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":279
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":192
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":129
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":121
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":138
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":120
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":95
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":110
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region VIII",
+    "cases":41
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":596
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":432
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":414
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":286
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":451
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":641
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":1025
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":1016
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":693
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":690
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":520
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region IX",
+    "cases":451
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":527
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":404
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":261
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":291
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":293
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":521
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":882
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":468
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":115
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":108
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":196
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region IX",
+    "cases":208
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":299
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":341
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":288
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":220
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":315
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":366
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":754
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":780
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":658
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":630
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":700
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region IX",
+    "cases":810
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":775
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":1003
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":1105
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":948
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":1602
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":3201
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":7024
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":4233
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":3304
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":1773
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":1507
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region IX",
+    "cases":972
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":577
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":593
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":433
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":115
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":164
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":124
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":168
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":213
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":107
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":79
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":60
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region IX",
+    "cases":51
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":1450
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":1184
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":944
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":768
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":825
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":973
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":2519
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":2897
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":2386
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":1794
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":1066
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region X",
+    "cases":874
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":1097
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":600
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":482
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":451
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":356
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":451
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":686
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":1354
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":290
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":227
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":276
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region X",
+    "cases":409
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":429
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":482
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":655
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":813
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":833
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":1535
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":3062
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":2856
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":3864
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":2341
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":3672
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region X",
+    "cases":2955
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1476
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1710
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1684
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":992
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1184
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":2415
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":3893
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":4807
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":4406
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":2023
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1897
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region X",
+    "cases":1869
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":945
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":1150
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":966
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":323
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":330
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":309
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":465
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":597
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":357
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":221
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":281
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region X",
+    "cases":281
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":790
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":711
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":564
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":557
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":628
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":1015
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":2330
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":2063
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":1010
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":1035
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":749
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region XI",
+    "cases":685
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":847
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":479
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":304
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":253
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":233
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":241
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":411
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":316
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":153
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":58
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":94
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region XI",
+    "cases":278
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":234
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":205
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":191
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":223
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":228
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":477
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":783
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":876
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":792
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":609
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":742
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region XI",
+    "cases":956
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":627
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":841
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":806
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":339
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":257
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":584
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":1115
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":1284
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":1141
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":534
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":437
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region XI",
+    "cases":501
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":220
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":312
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":352
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":80
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":70
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":51
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":126
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":185
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":146
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":113
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":154
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region XI",
+    "cases":127
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":1231
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":843
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":666
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":654
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":730
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":1260
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":3251
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":2582
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":1083
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":928
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":1216
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region XII",
+    "cases":1569
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":1512
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":1012
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":968
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":1070
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":758
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":806
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":771
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":733
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":694
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":549
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":349
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region XII",
+    "cases":391
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":433
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":378
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":477
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":476
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":490
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":850
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":1195
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":927
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":1016
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":927
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":855
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region XII",
+    "cases":1149
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":978
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":1588
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":1658
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":920
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":1286
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":2689
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":3114
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":3579
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":2434
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":1159
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":753
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region XII",
+    "cases":482
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":423
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":648
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":703
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":228
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":316
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":347
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":621
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":550
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":136
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":76
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":117
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region XII",
+    "cases":198
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":1116
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":679
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":569
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":420
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":566
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":615
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":897
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":851
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":331
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":277
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":396
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"Region XIII",
+    "cases":498
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":537
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":290
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":461
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":207
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":155
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":168
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":186
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":216
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":184
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":258
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":119
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"Region XIII",
+    "cases":207
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":269
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":314
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":188
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":216
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":221
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":400
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":849
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":803
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":1062
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":1060
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":1361
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"Region XIII",
+    "cases":2310
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":2036
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":2047
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":1088
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":328
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":324
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":492
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":749
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":1132
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":1201
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":908
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":713
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"Region XIII",
+    "cases":1036
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":938
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":1172
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":816
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":288
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":271
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":162
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":122
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":137
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":28
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":10
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":12
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"Region XIII",
+    "cases":27
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1261
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":999
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":730
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":448
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":414
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":406
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1436
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":2291
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1291
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1033
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1472
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"NCR",
+    "cases":1221
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":1676
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":1161
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":930
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":767
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":543
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":1027
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":3139
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":4555
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":3783
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":3833
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":2588
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"NCR",
+    "cases":2101
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":2043
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":1965
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":1160
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":897
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":603
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":832
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":2608
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":3323
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":5131
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":4472
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":3335
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"NCR",
+    "cases":2831
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":2082
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":2348
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":1377
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":532
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":442
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":817
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":1839
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":5481
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":11033
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":6776
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":4494
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"NCR",
+    "cases":3257
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":2328
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":1991
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":1032
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":99
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":65
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":57
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":112
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":158
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":131
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":129
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":423
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"NCR",
+    "cases":658
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":579
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":276
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":191
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":226
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":504
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":1358
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":2769
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":2179
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":538
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":261
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":161
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"CAR",
+    "cases":122
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":166
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":123
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":76
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":76
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":57
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":146
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":532
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":841
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":610
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":661
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":391
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"CAR",
+    "cases":366
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":320
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":234
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":173
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":128
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":188
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":467
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":1330
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":1265
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":1221
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":915
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":649
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"CAR",
+    "cases":694
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":470
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":694
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":398
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":163
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":187
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":547
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":1226
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":1536
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":1472
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":992
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":756
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"CAR",
+    "cases":367
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":229
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":185
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":121
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":19
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":31
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":62
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":67
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":72
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":39
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":40
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":38
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"CAR",
+    "cases":78
+  },
+  {
+    "date":"2016-01-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":126
+  },
+  {
+    "date":"2016-02-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":92
+  },
+  {
+    "date":"2016-03-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":107
+  },
+  {
+    "date":"2016-04-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":109
+  },
+  {
+    "date":"2016-05-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":165
+  },
+  {
+    "date":"2016-06-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":263
+  },
+  {
+    "date":"2016-07-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":491
+  },
+  {
+    "date":"2016-08-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":327
+  },
+  {
+    "date":"2016-09-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":124
+  },
+  {
+    "date":"2016-10-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":82
+  },
+  {
+    "date":"2016-11-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":143
+  },
+  {
+    "date":"2016-12-01",
+    "year":2016,
+    "region":"BARMM",
+    "cases":162
+  },
+  {
+    "date":"2017-01-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":74
+  },
+  {
+    "date":"2017-02-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":59
+  },
+  {
+    "date":"2017-03-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":25
+  },
+  {
+    "date":"2017-04-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":36
+  },
+  {
+    "date":"2017-05-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":22
+  },
+  {
+    "date":"2017-06-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":57
+  },
+  {
+    "date":"2017-07-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":62
+  },
+  {
+    "date":"2017-08-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":41
+  },
+  {
+    "date":"2017-09-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":33
+  },
+  {
+    "date":"2017-10-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":38
+  },
+  {
+    "date":"2017-11-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":17
+  },
+  {
+    "date":"2017-12-01",
+    "year":2017,
+    "region":"BARMM",
+    "cases":21
+  },
+  {
+    "date":"2018-01-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":149
+  },
+  {
+    "date":"2018-02-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":129
+  },
+  {
+    "date":"2018-03-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":77
+  },
+  {
+    "date":"2018-04-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":124
+  },
+  {
+    "date":"2018-05-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":164
+  },
+  {
+    "date":"2018-06-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":254
+  },
+  {
+    "date":"2018-07-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":412
+  },
+  {
+    "date":"2018-08-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":253
+  },
+  {
+    "date":"2018-09-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":261
+  },
+  {
+    "date":"2018-10-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":246
+  },
+  {
+    "date":"2018-11-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":183
+  },
+  {
+    "date":"2018-12-01",
+    "year":2018,
+    "region":"BARMM",
+    "cases":208
+  },
+  {
+    "date":"2019-01-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":201
+  },
+  {
+    "date":"2019-02-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":309
+  },
+  {
+    "date":"2019-03-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":303
+  },
+  {
+    "date":"2019-04-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":221
+  },
+  {
+    "date":"2019-05-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":284
+  },
+  {
+    "date":"2019-06-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":554
+  },
+  {
+    "date":"2019-07-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":772
+  },
+  {
+    "date":"2019-08-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":811
+  },
+  {
+    "date":"2019-09-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":807
+  },
+  {
+    "date":"2019-10-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":481
+  },
+  {
+    "date":"2019-11-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":362
+  },
+  {
+    "date":"2019-12-01",
+    "year":2019,
+    "region":"BARMM",
+    "cases":288
+  },
+  {
+    "date":"2020-01-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":212
+  },
+  {
+    "date":"2020-02-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":233
+  },
+  {
+    "date":"2020-03-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":207
+  },
+  {
+    "date":"2020-04-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":23
+  },
+  {
+    "date":"2020-05-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":27
+  },
+  {
+    "date":"2020-06-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":48
+  },
+  {
+    "date":"2020-07-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":100
+  },
+  {
+    "date":"2020-08-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":91
+  },
+  {
+    "date":"2020-09-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":16
+  },
+  {
+    "date":"2020-10-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":13
+  },
+  {
+    "date":"2020-11-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":15
+  },
+  {
+    "date":"2020-12-01",
+    "year":2020,
+    "region":"BARMM",
+    "cases":23
+  }
+]
