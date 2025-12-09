@@ -1,7 +1,7 @@
 "use client";
 
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import { DenguePoint } from "@/types";
+import { DenguePoint } from "@/types/index";
 
 type Props = {
   data: { date: string; cases: number }[];
